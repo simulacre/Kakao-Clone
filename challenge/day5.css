@@ -1,0 +1,66 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20%;
+  height: 40%;
+}
+
+.btn {
+  width: 80%;
+  height: 20%;
+  background-color: #7e8c8d;
+  margin-bottom: 20%;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 1.5vw;
+  color: white;
+  display: table;
+}
+.btn > #btntext {
+  display: table-cell;
+  vertical-align: middle;
+}
+.btn:hover {
+  background-color: #95a5a6;
+  box-shadow: 13px 9px 16px 1px #d0d0d0;
+}
+.btn:hover ~ .simulacre {
+  animation: 4s simulacrerotate infinite ease-in-out;
+}
+.simulacre:hover {
+  animation: 4s simulacrerotate infinite ease-in-out;
+}
+@keyframes simulacrerotate {
+  0% {
+    transform: none;
+    border: 5px solid black;
+  }
+  50% {
+    transform: rotate(130deg);
+    border: 5px solid black;
+  }
+  100% {
+    transform: none;
+    border: 5px solid black;
+  }
+}
+
+.simulacre {
+  width: 60%;
+}
