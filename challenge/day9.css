@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.blackbox {
+  width: 530px;
+  height: 1120px;
+  background-color: #34558b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*applebox*/
+
+.applebox {
+  background-color: #ffffff;
+  width: 510px;
+  height: 580px;
+  border-radius: 2%;
+}
+
+.applebox .apple__image {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 55px;
+}
+
+.applebox .apple__macbookpro {
+  width: 255px;
+}
+
+.applebox .apple__macbook {
+  display: flex;
+  flex-direction: column;
+}
+.applebox .apple__name {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 28px;
+}
+
+.applebox .apple__description {
+  font-size: 15px;
+  color: #878e97;
+  margin-top: 20px;
+  margin-left: 28px;
+  line-height: 1.5em;
+}
+
+.applebox .apple__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.applebox .apple__price {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 28px;
+}
+
+.applebox .fas {
+  font-size: 19px;
+  color: #febd51;
+}
+#greystar {
+  color: #d8dde5;
+}
+
+.applebox .apple__reviewcount {
+  font-size: 15px;
+  color: #878e97;
+  margin-right: 28px;
+  margin-left: 6px;
+}
+
+/*catsbox*/
+
+.catsbox {
+  background-color: #ffffff;
+  width: 510px;
+  height: 495px;
+  border-radius: 2%;
+  overflow: hidden;
+}
+
+.catsbox .cats__image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.catsbox .cats__background {
+  width: 515px;
+  height: 210px;
+}
+
+.catsbox .cats__profile {
+  width: 100px;
+  border-radius: 50%;
+  border: white solid 4px;
+  position: absolute;
+  margin-top: 50px;
+}
+
+.catsbox .cats__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.catsbox .cats__name {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 60px;
+}
+
+.catsbox .cats__description {
+  font-size: 15px;
+  color: #878e97;
+  margin-top: 15px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.catsbox .cats__action {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.catsbox .cats__follow-btn {
+  background-color: #6a75ff;
+  color: white;
+  width: 200px;
+  height: 65px;
+  border-radius: 5%;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.catsbox .cats__message-btn {
+  background-color: #eaecff;
+  color: #6a75ff;
+  width: 200px;
+  height: 65px;
+  border-radius: 5%;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
