@@ -1,0 +1,62 @@
+.popular__header {
+  margin-top: 28px;
+  font-size: 10px;
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular__header .popular__title {
+  font-weight: 600;
+}
+
+.popular__header .popular__btn {
+  color: red;
+}
+
+.popular__recipes {
+  display: flex;
+  width: 250px;
+  height: 190px;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.popular__recipes.column {
+  flex-flow: column wrap;
+}
+
+.recipes_box {
+  display: flex;
+  flex-direction: column;
+  width: 118px;
+  height: 70px;
+  border-radius: 10%;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+
+.recipes__homecooking {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/Kakao_Clone_V2/challenge/day12/images/home.webp);
+}
+
+.recipes__pastryrecipes {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/Kakao_Clone_V2/challenge/day12/images/pastry.webp);
+}
+
+.recipes__forbabies {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/Kakao_Clone_V2/challenge/day12/images/babies.webp);
+}
+
+.recipes__smoothie {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/Kakao_Clone_V2/challenge/day12/images/smoothie.webp);
+}

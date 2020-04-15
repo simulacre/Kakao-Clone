@@ -1,0 +1,42 @@
+.recipes__otherlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.list__column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fefefe;
+  width: 260px;
+  height: 50px;
+  border-radius: 0.8em;
+  padding: 10px;
+}
+.otherlist__list {
+  margin: 3px 0px;
+}
+.otherlist__title {
+  font-size: 10px;
+  font-weight: 600;
+  margin: 10px 0px 10px 0px;
+}
+.list__content {
+  font-size: 10px;
+}
+.list__name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.list__arrow {
+  border-radius: 15px;
+  color: red;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.list__count {
+  opacity: 0.6;
+}
